@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #a0a0ff;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+.snowFlake{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	background-color: #ffffff;
+	z-index: -99999;
+}
+.heading{
+	font-size: 60px;
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	margin-top: 150px;
+	-webkit-text-stroke-color: #ffffff;
+	-webkit-text-stroke-width: 1px;
+}
